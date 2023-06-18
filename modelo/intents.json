@@ -1,0 +1,176 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "como estas",
+                "hay alguien ahi?",
+                "hey",
+                "saludos",
+                "que tal",
+                "hi"
+            ],
+            "responses": [
+                "Hola soy el BOT de FUNDESTEAM, Bienvenido al sistema de soporte técnico STEAM, antes de continuar por favor indíquenos su nombre completo y su correo electrónico, usando el siguiente formato, Nombre:Maria Fuentes Correo: mari@gmail.com"
+            ],
+            "context": [
+                "saludos"
+            ]
+        },
+        {
+            "tag": "datos usuario",
+            "patterns": [
+                "Nombre:Maria Fuentes Correo: mari@gmail.com",
+                "Nombre:Carlos Perdomo Correo: carlosp@gmail.com",
+                "Nombre:Mary Salas Correo: mart789@gmail.com",
+                "Nombre:Martin Ruiz Correo: ruiz478@hotmail.com",                
+            ],
+            "responses": [
+                "Confirme si los datos son correctos"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "opcion 1",
+            "patterns": [            
+                "1",
+                "-1",
+                "#1"
+            ],
+            "responses": [
+                "Por favor ingrese al link de la guía de usuario"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "opcion 2",
+            "patterns": [            
+                "2",
+                "-2",
+                "#2"
+            ],
+            "responses": [
+                "Vamos a realizar un registro de sus datos y pronto serás contactado por el equipo de soporte técnico"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+           "tag": "opcion 3",
+            "patterns": [            
+                "3",
+                "-3",
+                "#3"
+            ],
+            "responses": [
+                "Por favor ingrese al link de la guía de usuario."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "opcion 4",
+            "patterns": [            
+                "4",
+                "-4",
+                "#4"
+            ],
+            "responses": [
+                "Por favor indiquenos la inicial de su colegio"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "mil gracias",
+                "muy amable",
+                "se lo agradezco",
+                "fue de ayuda",
+                "gracias por la ayuda",
+                "muy agradecido",
+                "gracias por su tiempo",
+                "ty"
+            ],
+            "responses": [
+                "Siempre a la orden",
+                "Feliz por ayudarlo",
+                "Gracias a usted",
+                "Estamos para servirle",
+                "Fue un placer\n\u00a1No olvide registrar su asistencia todo los d\u00edas durante la clase!",                
+                "Siempre para servirle\n\u00a1No olvide registrar su asistencia todo los d\u00edas durante la clase!",
+                
+            ],
+            "context": [
+                "agradecimientos"
+            ]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": [
+                "ayuda",
+                "Ayuda",
+                "AYUDA",
+                "en que me puedes ayudar",
+                "dime lo que puedes hacer",
+                "/help",
+                "como me puedes ayudar",
+                "HELP",
+                "Help",
+                "help"
+            ],
+            "responses": [
+                "Para que pueda capturar tu asistencia envia un mensaje de esta forma: *asistencia, Nombre, Correo, Salon, Pais*.\nPor ejemplo: *Asistencia, Ana Fernandez, correo-ejemplo@gmail.com, SIC CGB1, Honduras* :teeth\n"
+            ],
+            "context": [
+                "ayuda"
+            ]
+        },
+        {
+            "tag": "asistencia",
+            "patterns": [
+                "asistencia, nombre, correo, salon, pais",
+                "Asistencia, nombre, correo, salon, pais",
+                "asistencia",
+                "Asistencia",
+                "ASISTENCIA",
+                "asistencia,",
+                "Asistencia,"
+            ],
+            "responses": [
+                "Espere mientras se realiza el registro, d\u00e9jeme comprobar su informacion..."
+            ]
+        },
+        {
+            "tag": "no_response",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "No te he logrando entender, intentalo de nuevo.",
+                "\u00bfC\u00f3mo has dicho, disculpa?",
+                "Lo siento, no entiendo lo que me pides...",
+                "Repiteme, por favor",
+                "\u00bfQu\u00e9 has dicho?",
+                "Verifica el mensaje que has enviado"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
