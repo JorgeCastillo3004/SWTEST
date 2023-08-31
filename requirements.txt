@@ -1,5 +1,6 @@
-
-selenium
+chromedriver_autoinstaller
 webdriver-manager
-nltk
 tensorflow
+selenium
+pandas
+nltk
