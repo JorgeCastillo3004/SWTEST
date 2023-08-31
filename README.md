@@ -14,13 +14,15 @@ This repository contains a Python script that enables you to automate sending me
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine:git clone https://github.com/JorgeCastillo3004/SWTEST.git
 
+2. Create a virtual env: python3 -m venv PATH/NAME_ENV
+
+3. Activate virtual env: source PATH/NAME_ENV/bin/activate
  
-2. Install the required dependencies: pip install -r requirements.txt
+4. Install the required dependencies: pip install -r requirements.txt
 
-3. Run the script: python main.py
-
+5. Run the script: python main.py
 
 Notes
 
